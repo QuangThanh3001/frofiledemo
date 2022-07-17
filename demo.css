@@ -1,0 +1,76 @@
+:root{
+    --bg1: #2f1d36;
+    --bg2:#3498db;
+    --bg3:#D7E1EC;
+}Bạn
+ *{
+    margin:0;
+    padding:0;
+ }
+ body{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+     height: 100vh;
+     text-align: center;
+ }
+ .container{
+     width:350px;
+     height:450px;
+     border-radius:10px;
+     background: linear-gradient(var(--bg1), var(--bg2));
+     overflow: hidden;
+ }
+
+ .container img{
+     width:200px;
+     height:200px;
+     border-radius: 50%;
+     border:5px solid #fff;
+     margin:20px auto;
+     cursor: pointer;
+     position: relative;
+     transition: 0.3s;
+ }
+.container img:active{
+    width:350px;
+    height:450px;
+    margin: 0;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+.container h2{
+    color:#ffffff;
+}
+.container p{
+    color:#ffffff;
+    margin:0 30px 12px
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 13px;
+}
+.btn-container button{
+    height: 35px;
+    width: 150px;
+    border: none;
+    margin-right: 12px;
+    border-radius: 5px;
+    color: #333333;
+    cursor: pointer;
+}
+.icon-social{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+ }
+.icon-social i{
+    padding: 12px;
+    color: var(--bg1);
+    background: white;
+    border-radius: 50%;
+    margin: 5px 0 0 12px;
+}
+
